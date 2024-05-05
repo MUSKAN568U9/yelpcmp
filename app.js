@@ -64,7 +64,7 @@ const sessionConfig = {
     maxAge: 1000 * 60 * 60 * 24 * 7
   },
   store: new pgSession({
-    conString: `postgres://${dbUser}:${dbPass}@dpg-cht4h80rddlc2m8o0rk0-a.oregon-postgres.render.com/yelpcamp?ssl=true`, // Replace with your PostgreSQL connection string
+    conString: `postgres://${dbUser}:${dbPass}@dpg-cos0pqvsc6pc73dv3etg-a/yelpcamp_rq7f?ssl=true`, // Replace with your PostgreSQL connection string
     tableName: 'session',
     ssl: {
       rejectUnauthorized: false // Set this to false for SSL/TLS connection
