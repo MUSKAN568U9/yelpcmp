@@ -4,7 +4,7 @@ const dbPassword = process.env.DBPASSWORD;
 
 // Create a new Sequelize instance
 const sequelize = new Sequelize('yelpcamp', dbUser, dbPassword, {
-  host: 'dpg-cos0bta0si5c739njgfg-a.oregon-postgres.render.com',
+  host: 'dpg-cos0pqvsc6pc73dv3etg-a.oregon-postgres.render.com',
   port: 5432,
   dialect: 'postgres',
   logging: console.log, // Enable logging of SQL queries
