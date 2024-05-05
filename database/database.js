@@ -3,7 +3,7 @@ const dbUser = process.env.DBUSER;
 const dbPassword = process.env.DBPASSWORD;
 
 // Create a new Sequelize instance
-const sequelize = new Sequelize('yelpcamp-rq7f', dbUser, dbPassword, {
+const sequelize = new Sequelize('yelpcamp', dbUser, dbPassword, {
   host: 'dpg-cos0pqvsc6pc73dv3etg-a.oregon-postgres.render.com',
   port: 5432,
   dialect: 'postgres',
