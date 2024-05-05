@@ -6,7 +6,7 @@ const dbPassword = process.env.DBPASSWORD;
 const pool = new Pool({
   user: dbUser,
   host: 'dpg-cos0pqvsc6pc73dv3etg-a.oregon-postgres.render.com',
-  database: 'yelpcamp',
+  database: 'yelpcamp_rq7f',
   password: dbPassword,
   port: 5432, // alt PostgreSQL port
   ssl: true
